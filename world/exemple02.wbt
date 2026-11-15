@@ -1,0 +1,19 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/adept/pioneer3/protos/Pioneer3dx.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/CircleArena.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.5875387460310036 0.1650389736042145 0.7921870733002295 2.650018261904945
+  position 2.0207384176131518 2.950279094167763 1.928697949337116
+}
+Pioneer3dx {
+  translation 0 0 0.975
+  rotation 0 1 0 0
+  controller "my_controller"
+}
+CircleArena {
+  rotation 0 1 0 0
+}
